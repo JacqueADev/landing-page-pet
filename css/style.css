@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  "Zain", sans-serif;
-    overflow: hidden;
+   
 }
 
 :root{
@@ -56,6 +56,7 @@
 
 .corpo{
     margin-top: 50px;
+    display: inline-block;
 }
 
 .corpo img{
@@ -105,6 +106,7 @@
     color: var(--cor-texto-botao);
     font-size: 40px;
     padding: 5px 25px;
+    margin-bottom: 20px;
 }
 
 .corpo button:hover{
@@ -114,3 +116,55 @@
 
 }
 
+@media (max-width: 1660px){
+    .corpo img{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1000px){
+    .menu{
+        margin: 40px 20px;
+        text-align: center;
+    }
+    .menu a{
+        font-size: 25px;
+    }
+
+    .corpo button{
+        font-size: 30px;
+       
+    }
+}
+
+@media (max-width: 900px){
+    
+
+    .menu-link button{
+        font-size: 25px;
+    }
+
+    .corpo-conteudo{
+        width: 50%;
+    
+    }
+
+    .corpo-conteudo h1{
+        font-size: 40px;
+    }
+
+    .corpo-conteudo h3{
+        font-size: 35px;
+    }
+
+    .corpo-conteudo p{
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .corpo img{
+        width: 50%;
+
+}
+
+}
