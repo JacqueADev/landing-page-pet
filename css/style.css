@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Zain", sans-serif;
+    overflow: hidden;
+}
+
+:root{
+    --botao-cabecalho: #ddaf16;
+    --botao-section: #e6800c;
+    --cor-links-titulo:#515151;
+    --cor-texto-botao: #ffffff;
+    --font-titulo-h1: "Playwrite HR Lijeva", cursive;
+    --font-titulo-h3:"Rubik", sans-serif;
+}
+
+.menu{
+    margin: 40px 60px;
+    display: inline-block;
+
+}
+
+.menu-link a{    
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--cor-links-titulo);
+    text-decoration: none;
+    padding: 10px 25px;
+    cursor: pointer;
+
+}
+
+.menu-link a:hover{
+    color: var(--botao-section);
+    transition: 0.5s;
+}
+
+.menu-link button{
+    background-color: var(--botao-cabecalho);
+    font-size: 35px;
+    border: none;
+    border-radius: 50px;
+    padding: 2px 20px;
+    color: var(--cor-texto-botao);
+    cursor: pointer;
+}
+
+.menu-link button:hover{
+    border: 1px solid var(--botao-cabecalho);
+    background-color: var(--cor-texto-botao);
+    color: var(--cor-links-titulo);
+}
+
+.corpo{
+    margin-top: 50px;
+}
+
+.corpo img{
+    margin-left: 350px;
+ 
+}
+
+.corpo .corpo-conteudo{
+    display: inline-block;
+
+}
+
+.corpo-conteudo{
+    width: 700px;
+    margin-left: 120px;
+}
+
+.corpo-conteudo h1{
+    font-family: var(--font-titulo-h1);
+    font-size: 75px;
+    font-weight: 800;
+    color: var(--cor-links-titulo);
+
+}
+
+.corpo-conteudo h3{
+    color: var(--cor-links-titulo);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+   
+}
+
+.corpo p{
+    color: var(--cor-links-titulo);
+    font-size: 23px;
+    font-weight: 300;
+    width: 500px;
+    padding-top: 10px;
+    margin-bottom: 90px;
+}
+
+.corpo button{
+    background-color: var(--botao-section);
+    border: none;
+    border-radius: 50px;
+    color: var(--cor-texto-botao);
+    font-size: 40px;
+    padding: 5px 25px;
+}
+
+.corpo button:hover{
+    border: 1px solid var(--botao-cabecalho);
+    background-color: var(--cor-texto-botao);
+    color: var(--cor-links-titulo);
+
+}
+
